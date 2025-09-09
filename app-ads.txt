@@ -289,7 +289,6 @@ yeahmobi.com,5135195,RESELLER
 yeahmobi.com,5135347,RESELLER
 yieldlab.net,2172218,RESELLER
 bigo.sg,1112518,reseller
-yandex.com,302446435,reseller
 applovin.com,a97e4a2a60836795b8e1433cefd17f30,RESELLER
 
 
@@ -649,5 +648,6 @@ smartadserver.com, 4539, RESELLER, 060d053dcf45cbf3
 consumable.com, 2001470, RESELLER, aefcd3d2f45b5070
 conversantmedia.com, 100322, RESELLER, 03113cd04947736d
 facebook.com, 3822508371411671, RESELLER, c3e20eee3f780d68
+
 
 
