@@ -1,7 +1,7 @@
 # Ambitious Seed apps-ads.txt
 
 #google.com, pub-7563687696128441, DIRECT, f08c47fec0942fa0
-#yandex.com, 302446435, DIRECT
+yandex.com, 302446435, DIRECT
 
 #Updated 20th September
 #Appodeal
@@ -649,6 +649,7 @@ smartadserver.com, 4539, RESELLER, 060d053dcf45cbf3
 consumable.com, 2001470, RESELLER, aefcd3d2f45b5070
 conversantmedia.com, 100322, RESELLER, 03113cd04947736d
 facebook.com, 3822508371411671, RESELLER, c3e20eee3f780d68
+
 
 
 
