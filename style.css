@@ -386,8 +386,13 @@ h2 {
   font-size: clamp(1.6rem, 4vw, 2.5rem);
 }
 
+.support-copy {
+  display: grid;
+  gap: 18px;
+}
+
 .compliance-link {
-  flex: 0 0 100%;
+  width: fit-content;
 }
 
 .social-links {
