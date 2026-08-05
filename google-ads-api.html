@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Google Ads API usage disclosure for Ambitious Seed internal ad spend analytics.">
+  <title>Google Ads API Usage - Ambitious Seed</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="legal-hero">
+      <nav class="topbar" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="Ambitious Seed home">
+          <span class="brand-mark">AS</span>
+          <span>Ambitious Seed</span>
+        </a>
+        <div class="nav-links">
+          <a href="index.html#games">Games</a>
+          <a href="index.html#support">Support</a>
+        </div>
+      </nav>
+
+      <div class="legal-heading">
+        <p class="eyebrow">API disclosure</p>
+        <h1>Google Ads API Usage</h1>
+        <p>
+          Ambitious Seed uses Google Ads API access only for internal business analytics related to our mobile game advertising costs.
+        </p>
+      </div>
+    </header>
+
+    <section class="legal-content" aria-label="Google Ads API usage details">
+      <article>
+        <h2>Business Use Case</h2>
+        <p>
+          Ambitious Seed develops and publishes mobile games. We need read-only Google Ads reporting data to compare advertising spend with application revenue and understand campaign performance for our own games.
+        </p>
+        <p>
+          The data is used in a private internal dashboard for cost, revenue, and profitability analysis. It is not sold, shared with third parties, or used to provide advertising services to external customers.
+        </p>
+      </article>
+
+      <article>
+        <h2>Requested Access</h2>
+        <p>
+          Our implementation requests read-only access to reporting data such as campaign, ad group, date, cost, clicks, impressions, conversions, and related performance metrics.
+        </p>
+        <p>
+          The tool does not create, edit, or delete campaigns, ads, budgets, keywords, or account settings.
+        </p>
+      </article>
+
+      <article>
+        <h2>Data Flow</h2>
+        <p>
+          The internal tool authenticates with Google OAuth, retrieves Google Ads reporting data through the Google Ads API, normalizes it by date and campaign, and compares it with revenue data from our application monetization reports.
+        </p>
+        <p>
+          Results are shown only to authorized Ambitious Seed team members in the internal analytics interface.
+        </p>
+      </article>
+
+      <article>
+        <h2>Security</h2>
+        <p>
+          API credentials and tokens are stored securely and are accessible only to authorized maintainers. Access is limited to the minimum permissions required for reporting.
+        </p>
+        <p>
+          We do not request user-level personal data from Google Ads API and do not expose raw API data publicly.
+        </p>
+      </article>
+
+      <article>
+        <h2>Contact</h2>
+        <p>
+          For questions about this Google Ads API usage, contact Ambitious Seed through our public support channels listed on the home page.
+        </p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
