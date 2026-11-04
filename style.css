@@ -291,6 +291,17 @@ h2 {
   background: linear-gradient(145deg, rgba(142, 227, 139, 0.12), rgba(23, 27, 36, 0.98) 45%);
 }
 
+.game-card-tff {
+  background: linear-gradient(145deg, rgba(121, 216, 255, 0.16), rgba(23, 27, 36, 0.98) 45%);
+}
+
+.game-content .release-status {
+  margin-top: auto;
+  margin-bottom: 14px;
+  color: var(--yellow);
+  font-weight: 800;
+}
+
 .game-card-d3s {
   background: linear-gradient(145deg, rgba(255, 212, 71, 0.16), rgba(23, 27, 36, 0.98) 45%);
 }
